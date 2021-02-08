@@ -1,0 +1,183 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+body {
+    color: #2b2b2b;
+    background: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(21, 82, 82);
+    color: rgb(101, 175, 240);
+    font-family: monospace;
+    text-shadow: 2px 2px 1px rgb(255, 0, 221);
+    background: #fff url(https://i.pinimg.com/originals/88/b7/d2/88b7d20635a07092dfd3d12e8fd70779.jpg);
+}
+
+header h1 {
+    padding-top: 30px;
+    font-size: 48px;
+    text-align: center;
+}
+
+header h2 {
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(141, 163, 175);
+}
+
+h3 {
+    font-size: 40px;
+}
+
+.intro {
+    background-color: #8980b94f;
+    width: 80%;
+}
+/*Coincido contigo que debe ser la página más fea que jamás hayas visto*/
+#zen-supporting {
+    width: 79.5%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+    background: linear-gradient(to bottom right, rgb(209, 93, 255), rgb(140, 138, 255));
+}
+
+.summary {
+    padding-left: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.summary p {
+    padding-top: 10px;
+}
+
+.preamble {
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.explanation {
+    height: 760px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 8px solid #a5a5a5;
+    padding-top: 20px;
+    background: url(https://images.vexels.com/media/users/3/151851/isolated/lists/f4ccc35cf8d810284cb7edefd7878157-icono-de-bombilla.png)no-repeat bottom;
+}
+
+.explanation:hover {
+    background: #fff url(https://i.pinimg.com/originals/88/b7/d2/88b7d20635a07092dfd3d12e8fd70779.jpg);
+    color: aliceblue;
+}
+
+.participation {
+    height: 750px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 8px solid #a5a5a5;
+    padding-top: 30px;
+    background: url(https://images.vexels.com/media/users/3/205440/isolated/lists/ab3a0ca26c1d2132171eec50b658efb7-ilustracion-de-gafas-de-libro-abierto.png) no-repeat bottom;
+}
+
+.participation:hover {
+    background: #fff url(https://i.pinimg.com/originals/88/b7/d2/88b7d20635a07092dfd3d12e8fd70779.jpg);
+    color: aliceblue;
+}
+
+.benefits {
+    border: 8px solid #a5a5a5;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    background: url(https://images.vexels.com/media/users/3/205943/isolated/lists/9e526463df276a97e8de4b1847e5b68a-icono-de-trazo-de-maleta-de-cejas.png) no-repeat bottom;
+}
+
+.benefits:hover {
+    background: #fff url(https://i.pinimg.com/originals/88/b7/d2/88b7d20635a07092dfd3d12e8fd70779.jpg);
+    color: aliceblue;
+}
+
+.requirements {
+    border: 8px solid #a5a5a5;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background: url(https://gygabyteinc.files.wordpress.com/2011/04/logo-pc.png) no-repeat bo;
+}
+
+.requirements:hover {
+    background: #fff url(https://i.pinimg.com/originals/88/b7/d2/88b7d20635a07092dfd3d12e8fd70779.jpg);
+    color: aliceblue;
+}
+
+footer {
+    position: absolute;
+    margin-top: 87em;
+    height: 140px;
+    width: 99%;
+    background: url(https://i.pinimg.com/originals/88/b7/d2/88b7d20635a07092dfd3d12e8fd70779.jpg);
+    text-align: center;
+    word-spacing: 20px;
+}
+
+footer a {
+    color: #fff;
+    letter-spacing: 1px;
+    word-spacing: 200px;
+    font-family: monospace;
+    
+}
+
+footer a:hover {
+    color: gold;
+}
+aside {
+    padding-left: 5px;
+    position: absolute;
+    top: 0;
+    margin-left: 80%;
+    background: linear-gradient(to bottom right, rgb(213, 107, 255), rgb(131, 129, 255));
+    border: 8px solid #666666;
+    width: 18%;
+    
+}
+aside:hover{
+    color: #fff;
+    background: url(https://i.pinimg.com/originals/88/b7/d2/88b7d20635a07092dfd3d12e8fd70779.jpg);
+}
+aside ul{
+    list-style: none;
+    text-align:left;
+}
+
+ul > li{
+    position: relative;
+	display: inline-block;
+}
+ul > li > a{
+	display:contents;
+	text-shadow: 1px 1px rgb(0, 0, 0);
+	color: #575757;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+ul li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
